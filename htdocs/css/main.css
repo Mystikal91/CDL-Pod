@@ -1,0 +1,57 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#header {
+    background-color: rgb(160, 29, 34);
+    font-weight: 600;
+    color: white;
+}
+#header img.logo {
+    max-height: 300px;
+}
+
+#header .title {
+    font-size: calc(1.375rem + 3vw);
+}
+#header .subtitle {
+    font-size: calc(1.325rem + 2vw);
+}
+
+@media (min-width: 992px) {
+    #header {
+        background-color: rgb(160, 29, 34);
+        font-weight: 600;
+        color: white;
+        height: 200px;
+    }
+
+    #header img.logo {
+        max-height: 150px;
+        max-width: auto;
+    }
+
+    #header .title {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+    #header .subtitle {
+        font-size: calc(1.325rem + .9vw);
+    }
+}
+
+.button-grid a.btn.btn-outline-primary img,
+.button-grid a.btn.btn-outline-success img,
+.button-grid a.btn.btn-outline-dark img,
+.button-grid a.btn.btn-primary img,
+.button-grid a.btn.btn-secondary img,
+.button-grid a.btn.btn-success img,
+.button-grid a.btn.btn-dark img {
+    padding: 2rem;
+}
+
+.button-grid .shadow {
+    padding: 1rem;
+}
+.button-grid .fa-as-image {
+    padding: 1rem;
+}
