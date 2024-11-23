@@ -38,7 +38,7 @@
                 <div class="shadow">
                     <div class="d-grid gap-2">
                         <a class="btn btn-outline-dark" href="https://cloud.urbi.it/urbi/progs/main/index.sto" target="_blank" role="button"><img class="img-fluid" src="./asset/urbi.png">URBI Smart</a>
-                        <button class="btn btn-primary" type="button">Guide e Manuali</button>
+                        <a class="btn btn-primary" href="./manual-urbi.html" role="button">Guide e Manuali</a>
                     </div>
                 </div>
             </div>
@@ -69,9 +69,17 @@
             <div class="col-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="shadow">
                     <div class="d-grid gap-2">
-                        <div class="check-if-works" data-bs-toggle="tooltip" data-bs-title="Non disponibile fuori dalla rete comunale">
-                            <a class="btn btn-secondary disabled" href="http://ticket.legnano.local/login.php" target="_blank" role="button"><img class="img-fluid" src="./asset/ticket.png">Ticket Assistenza</a>
+                        <div class="check-if-works" data-bs-toggle="tooltip" data-bs-title="Disponibile solo dall'interno della rete comunale">
+                            <a class="btn btn-outline-dark" href="http://ticket.legnano.local/login.php" target="_blank" role="button"><img class="img-fluid" src="./asset/ticket.png">Ticket Assistenza</a>
                         </div>
+                        <button class="btn btn-primary" type="button">Guide e Manuali</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="shadow">
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-outline-dark" href="https://sit.comune.legnano.mi.it/clientweb_pubblico/" target="_blank" role="button"><img class="img-fluid" src="./asset/sit.png">Portale SIT</a>
                         <button class="btn btn-primary" type="button">Guide e Manuali</button>
                     </div>
                 </div>
@@ -114,5 +122,5 @@
 
 <script src="./vendor/jquery/jquery-3.7.1.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="./js/online-check.js"></script>
+<script src="./js/main.js"></script>
 </html>
