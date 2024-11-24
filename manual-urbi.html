@@ -9,6 +9,9 @@
     <link href="./vendor/fontawesome/css/brands.css" rel="stylesheet" />
     <link href="./vendor/fontawesome/css/solid.css" rel="stylesheet" />
 
+    <link href="./vendor/datatables/css/datatables.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/fonts.css">
 </head>
@@ -32,17 +35,59 @@
             </div>
         </div>
     </div>
-    <div class="container mt-5 button-grid">
-      <div class="row justify-content-center align-items-center gy-3">
-        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-
-          <a class="btn btn-primary" href="./index.html" role="button">Torna alla Home</a>
+    <div class="container mt-5">
+        <div class="row justify-content-center align-items-center gy-3">
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                <a class="btn btn-primary" href="./index.html" role="button">Torna alla Home</a>
+            </div>
         </div>
-      </div>
+        <table id="manual-table" class="display datatables-table">
+            <thead>
+                <tr>
+                    <th>Titolo</th>
+                    <th>Data creazione</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="./manuals/urbi/Chrome come browser predefinito.pdf" target="_blank">Chrome come browser predefinito</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Guida utente autenticazione a 2 fattori.pdf" target="_blank">Guida utente autenticazione a 2 fattori</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Mailing List per gli Assessori e i Consiglieri Comunali.pdf" target="_blank">Mailing List per gli Assessori e i Consiglieri Comunali</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Manuale Fascicolazione.pdf" target="_blank">Manuale Fascicolazione</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Manuale Protocollo.pdf" target="_blank">Manuale Protocollo</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Primo accesso.pdf" target="_blank">Primo accesso</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Riavvio componente UrbiUP.pdf" target="_blank">Riavvio componente UrbiUP</a></td>
+                    <td>n/d</td>
+                </tr>
+                <tr>
+                    <td><a href="./manuals/urbi/Selezione veloce del fascicolo.pdf" target="_blank">Selezione veloce del fascicolo</a> </td>
+                    <td>n/d</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 
 <script src="./vendor/jquery/jquery-3.7.1.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/datatables/js/datatables.min.js"></script>
 <script src="./js/main.js"></script>
 </html>
